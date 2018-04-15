@@ -1,11 +1,11 @@
 .col-md-4{
     text-align: justify;
-    margin-left: 35rem;
+    margin-left: 24rem;
    
 }
 
 h1{
-    margin-left: 22rem;
+    margin-left: 13rem;
     margin-top: 3rem;
     margin-bottom: -2.5rem;
     font-size: 2.5rem;
@@ -18,40 +18,131 @@ h1{
     background: url("../img/js.svg") no-repeat center top;
     background-size: 5rem;
     width: 13rem;
+    margin-left: 12rem;
+    .texto{
+        margin-left: 13.7rem;
+    }
+
+    .percent{
+        margin-left: 13rem;
+        margin-top: -1rem;
+    }
 }
 
 .html{
     background: url("../img/html5.png") no-repeat center top;
-    background-size: 5rem;
+    background-size: 7rem;
     width: 13rem;
+    margin-left: 38rem;
+    margin-top: -8.5rem;
+    .texto{
+        margin-left: 13.7rem;
+    }
+
+    .percent{
+        margin-left: 13rem;
+        margin-top: -1rem;
+    }
 }
 
 .css{
     background: url("../img/css3.png") no-repeat center top;
     background-size: 5rem;
     width: 13rem;
+    margin-left: 12.5rem;
+    margin-top: 3rem;
+    .texto{
+        margin-left: 13.7rem;
+    }
+
+    .percent{
+        margin-left: 13rem;
+        margin-top: -1rem;
+    }
+    
 }
 
 .angular{
     background: url("../img/angular.png") no-repeat center top;
     background-size: 5rem;
     width: 13rem;
+    margin-left: 38rem;
+    margin-top: -8.5rem;
+    .texto{
+        margin-left: 13.7rem;
+    }
+
+    .percent{
+        margin-left: 13rem;
+        margin-top: -1rem;
+    }
 }
 
 .vue{
     background: url("../img/vuejs.png") no-repeat center top;
     background-size: 5rem;
     width: 13rem;
+    margin-left: 12.5rem;
+    margin-top: 3rem;
+    .texto{
+        margin-left: 13.7rem;
+    }
+
+    .percent{
+        margin-left: 13rem;
+        margin-top: -1rem;
+    }
 }
 
 .react{
     background: url("../img/react.png") no-repeat center top;
     background-size: 5rem;
     width: 13rem;
+    margin-left: 38rem;
+    margin-top: -8.5rem;
+    .texto{
+        margin-left: 13.7rem;
+    }
+
+    .percent{
+        margin-left: 13rem;
+        margin-top: -1rem;
+    }
 }
 
 .git{
     background: url("../img/git.png") no-repeat center top;
     background-size: 5rem;
     width: 13rem;
+    margin-left: 12.5rem;
+    margin-top: 3rem;
+    .texto{
+        margin-left: 13.7rem;
+    }
+
+    .percent{
+        margin-left: 13rem;
+        margin-top: -1rem;
+    }
+    
+}
+
+.correo{
+    display: flex;
+    margin-left: 14%;
+    margin-top: -1rem;
+
+    a{
+        margin-right: 11%;
+        margin-left: 7.5%;
+    }
+}
+
+.phone{
+    margin-left: -7rem;
+}
+
+h3{
+    font-size: 2.5rem;
+    margin-left: 19%;
 }
