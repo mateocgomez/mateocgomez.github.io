@@ -10,7 +10,7 @@ h1{
     margin-bottom: -2.5rem;
     font-size: 2.5rem;
     opacity: 0.9;
-    color: #979395;
+    color: $colorLetras;
     
 }
 
@@ -18,7 +18,6 @@ h1{
     background: url("../img/js.svg") no-repeat center top;
     background-size: 5rem;
     width: 13rem;
-    margin-left: 12rem;
     .texto{
         margin-left: 13.7rem;
     }
@@ -30,12 +29,13 @@ h1{
 }
 
 .html{
-    background: url("../img/html5.png") no-repeat center top;
+    background: url("../img/code.png") no-repeat center top;
     background-size: 7rem;
     width: 13rem;
-    margin-left: 38rem;
+    margin-left: 25rem;
     margin-top: -8.5rem;
     .texto{
+        margin-top: 23%;
         margin-left: 13.7rem;
     }
 
@@ -49,7 +49,6 @@ h1{
     background: url("../img/css3.png") no-repeat center top;
     background-size: 5rem;
     width: 13rem;
-    margin-left: 12.5rem;
     margin-top: 3rem;
     .texto{
         margin-left: 13.7rem;
@@ -66,7 +65,7 @@ h1{
     background: url("../img/angular.png") no-repeat center top;
     background-size: 5rem;
     width: 13rem;
-    margin-left: 38rem;
+    margin-left: 25rem;
     margin-top: -8.5rem;
     .texto{
         margin-left: 13.7rem;
@@ -82,7 +81,6 @@ h1{
     background: url("../img/vuejs.png") no-repeat center top;
     background-size: 5rem;
     width: 13rem;
-    margin-left: 12.5rem;
     margin-top: 3rem;
     .texto{
         margin-left: 13.7rem;
@@ -98,7 +96,7 @@ h1{
     background: url("../img/react.png") no-repeat center top;
     background-size: 5rem;
     width: 13rem;
-    margin-left: 38rem;
+    margin-left: 25rem;
     margin-top: -8.5rem;
     .texto{
         margin-left: 13.7rem;
@@ -114,7 +112,6 @@ h1{
     background: url("../img/git.png") no-repeat center top;
     background-size: 5rem;
     width: 13rem;
-    margin-left: 12.5rem;
     margin-top: 3rem;
     .texto{
         margin-left: 13.7rem;
@@ -144,5 +141,26 @@ h1{
 
 h3{
     font-size: 2.5rem;
-    margin-left: 19%;
+    margin-left: 23%;
+}
+
+.contacto{
+    margin-left: 17rem;
+}
+
+.red{
+    font-size: 2.5rem;
+    margin-left: 30%;
+}
+
+.github{
+    width: 10%;
+    margin-left: 15rem;
+}
+
+.codepen{
+    width: 10%;
+    height: 10%;
+    margin-left: 27rem;
+    margin-top: -5rem;
 }
