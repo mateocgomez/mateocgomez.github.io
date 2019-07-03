@@ -34,15 +34,6 @@ p {
     line-height: 2rem;
     font-family: var(--fuentePrincipal);
 }
-
-.owl-nav{
-    color: white;
-}
-
-.text-align{
-    text-align: center;
-    text-decoration: underline;
-}
 .hero {
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
@@ -59,33 +50,13 @@ p {
     color: var(--claro);
 }
 
-.portafolio {
-    background-image: url(../img/contacto.jpg);
-    background-repeat: no-repeat;
-    height: 40vh;
-    background-size: cover;
-}
-.portafolio .contenedor{
-    display: grid;
-    align-content: center;
-}
-.portafolio .contenido {
-    text-align: center;
-    color: var(--claro);
-}
-
-.carrouselprimario{
-    margin-top: 2.5rem;
-}
-
-
 .hero_photo{
     width: 25%;
 }
 
 .servicios{
     text-align: center;
-    margin-top: 3rem;
+    margin-top:: 3rem;
 }
 
 .servicios h2{
@@ -142,19 +113,4 @@ p {
         grid-template: columns: repeat(2, 30%)auto;
 
     }
-
-    
 }
-
-@media (max-width:768px){
-    .portafolio h1{
-        font-size: 20px;
-    }
-
-    .carrouselprimario h1{
-        font-size: 20px;
-    }
-
-    
-}
-
